@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/brahmaTechnologies/static/css/main.80152810.css",
+    "main.css": "/brahmaTechnologies/static/css/main.a14bedbb.css",
     "main.js": "/brahmaTechnologies/static/js/main.386207bb.js",
     "static/js/787.d5ecbefc.chunk.js": "/brahmaTechnologies/static/js/787.d5ecbefc.chunk.js",
     "static/media/P1.jpg": "/brahmaTechnologies/static/media/P1.dc2d90e223bf91adb6b0.jpg",
@@ -9,12 +9,12 @@
     "static/media/P2.jpg": "/brahmaTechnologies/static/media/P2.c64cd80454c323d254b2.jpg",
     "static/media/logo.svg": "/brahmaTechnologies/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/brahmaTechnologies/index.html",
-    "main.80152810.css.map": "/brahmaTechnologies/static/css/main.80152810.css.map",
+    "main.a14bedbb.css.map": "/brahmaTechnologies/static/css/main.a14bedbb.css.map",
     "main.386207bb.js.map": "/brahmaTechnologies/static/js/main.386207bb.js.map",
     "787.d5ecbefc.chunk.js.map": "/brahmaTechnologies/static/js/787.d5ecbefc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.80152810.css",
+    "static/css/main.a14bedbb.css",
     "static/js/main.386207bb.js"
   ]
 }
