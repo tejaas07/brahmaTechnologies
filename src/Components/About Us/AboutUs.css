@@ -1,0 +1,14 @@
+.container {
+  /* background-color: #f7f8fc; */
+}
+.header {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20%;
+  margin-bottom: 2%;
+}
+p {
+  /* text-align: center; */
+  font-size: 18px;
+}

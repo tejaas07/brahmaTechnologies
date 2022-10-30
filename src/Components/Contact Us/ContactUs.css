@@ -1,0 +1,127 @@
+.contactCtn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.form {
+  width: 40%;
+}
+.details {
+  width: 60%;
+}
+ul {
+  text-decoration: none;
+  list-style-type: none;
+}
+li {
+  text-decoration: none;
+}
+.cntcDetail {
+  background-color: #9e9e9e;
+  margin: 1%;
+  border-radius: 15px;
+  padding: 3%;
+  width: 30%;
+  font-weight: 500;
+}
+.icon {
+  padding: 3%;
+  border-radius: 50px;
+  background-color: #fcbc06;
+  color: #000;
+  margin-right: 3%;
+}
+.query {
+  font-size: 27px;
+  font-weight: 600;
+  margin-left: 5%;
+}
+.queryChild {
+  font-size: 24px;
+  font-weight: 500;
+  margin-left: 5%;
+}
+.ctnContainer {
+  margin-left: 3%;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.detail {
+  margin-top: 2%;
+}
+.email {
+  word-break: break-all;
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .ctnContainer {
+    font-size: 13px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  .contactCtn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .form {
+    width: 100%;
+  }
+  .details {
+    width: 100%;
+  }
+  .query {
+    font-size: 21px;
+  }
+  .queryChild {
+    font-size: 18px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+  .ctnContainer {
+    margin-left: 0%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .cntcDetail {
+    background-color: #9e9e9e;
+    margin: 1%;
+    border-radius: 15px;
+    padding: 3%;
+    width: 100%;
+    word-break: break-all;
+    align-items: center;
+    text-align: center;
+  }
+  .query {
+    margin-left: 0px;
+    text-align: center;
+    /* margin-bottom: 3%; */
+    margin-top: 3%;
+  }
+  .queryChild {
+    margin-left: 0px;
+    text-align: center;
+  }
+  .icon {
+    padding: 1%;
+    border-radius: 50px;
+    background-color: #fcbc06;
+    color: #000;
+    margin-right: 3%;
+  }
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

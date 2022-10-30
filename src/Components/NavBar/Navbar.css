@@ -1,0 +1,100 @@
+.Navbar {
+  background-color: #fff;
+  border-bottom: 0.5px solid black;
+  height: 80px;
+}
+.NavItem {
+  margin-right: 3px;
+}
+.logoImg {
+  height: 70px;
+  width: 70px;
+  margin-right: 10px;
+  background-color: "red";
+  border-radius: "55%";
+}
+.logoName {
+  font-size: 35px;
+  margin: auto;
+  padding: auto;
+  align-items: center;
+}
+.sideNav {
+  display: flex;
+  align-items: center;
+}
+.navChild {
+  margin-right: 20px;
+}
+@media (max-width: 992px) {
+  .logoName {
+    font-size: 25px;
+    margin: auto;
+    padding: auto;
+    align-items: center;
+  }
+}
+@media (max-width: 768px) {
+  .logoName {
+    font-size: 18px;
+    margin: auto;
+    padding: auto;
+    align-items: center;
+  }
+  .logoImg {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    background-color: "red";
+    border-radius: "55%";
+  }
+  .links {
+    font-size: 12px;
+  }
+}
+@media (max-width: 576px) {
+  .logoImg {
+    height: 60px;
+    width: 60px;
+    margin-right: 10px;
+    background-color: "red";
+    border-radius: "55%";
+  }
+  .logoName {
+    font-size: 16px;
+    margin: auto;
+    padding: auto;
+    align-items: center;
+  }
+  .Navbar {
+    font-size: 12px;
+  }
+  .NavbarBrand {
+    font-size: 12px;
+    color: red;
+  }
+  .links {
+    margin: 0px;
+    margin-right: 0px;
+  }
+  .sideNav {
+    flex-direction: column;
+  }
+  .NavItem {
+  }
+}
+@media (max-width: 300px) {
+  .logoName {
+    font-size: 16px;
+    margin: auto;
+    padding: auto;
+    align-items: center;
+  }
+  .logoImg {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    background-color: "red";
+    border-radius: "55%";
+  }
+}

@@ -1,0 +1,127 @@
+.container {
+  /* background-color: aqua; */
+  margin-top: 80px;
+}
+.home {
+  /* margin-top: 80px; */
+  margin-top: 10%;
+}
+.carl {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+  z-index: -1;
+}
+.caroulsalText {
+  width: 50%;
+  text-align: center;
+  font-size: 35px;
+  color: #fff;
+  margin: auto;
+}
+.caroulsalImage {
+  margin: auto;
+  width: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.carImage {
+  margin: auto;
+  width: 80%;
+  object-fit: contain;
+  height: 400px;
+}
+.navButton {
+  margin-top: 12%;
+}
+.CompanyName {
+  font-weight: 500;
+  text-align: center;
+  margin: 1%;
+  font-size: 32px;
+}
+.desc {
+  text-align: center;
+  width: 65%;
+  margin: auto;
+  line-break: strict;
+  flex-wrap: wrap;
+  margin-bottom: 3%;
+  font-size: 21px;
+}
+.grid {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  padding-top: 2%;
+  margin-bottom: 3%;
+}
+.gridChild {
+  width: 30%;
+  background-color: grey;
+  text-align: center;
+}
+.gridChild :hover {
+  cursor: pointer;
+}
+Link {
+  text-decoration: none;
+}
+@media (max-width: 768px) {
+  .home {
+    /* margin-top: 80px; */
+  }
+}
+@media (max-width: 576px) {
+  .carl {
+    flex-direction: column-reverse;
+  }
+  .carImage {
+    /* width: 100%; */
+    object-fit: contain;
+    height: 200px;
+  }
+  .caroulsalImage {
+    width: 100%;
+  }
+  .caroulsalText {
+    font-size: 21px;
+    width: 100%;
+  }
+  .navButton {
+    margin: 3%;
+  }
+  .CompanyName {
+    font-weight: 700;
+    text-align: center;
+    margin: 3%;
+    font-size: 21px;
+  }
+  .desc {
+    text-align: center;
+    width: 95%;
+    margin-bottom: 3%;
+    font-size: 16px;
+  }
+  .grid {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    padding-top: 3%;
+    margin-bottom: 3%;
+  }
+  .gridChild {
+    margin: 1%;
+    width: 80%;
+  }
+  .home {
+    margin-top: 20%;
+  }
+}

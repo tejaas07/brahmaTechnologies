@@ -1,0 +1,39 @@
+.container {
+  /* margin-bottom: 75px; */
+}
+.cardContainer {
+  margin-top: 3%;
+}
+.card {
+  width: 40%;
+  margin: 1%;
+  text-align: center;
+  display: flex;
+}
+.cardCtn {
+}
+.productImg {
+  height: 300;
+  object-fit: contain;
+  width: 100%;
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  .card {
+    width: 80%;
+    margin: 1%;
+    text-align: center;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
